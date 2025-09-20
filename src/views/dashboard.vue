@@ -16,6 +16,9 @@
             <router-link to="/tasks" class="flex items-center px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900">
               Tasks
             </router-link>
+            <router-link to="/settings" class="flex items-center px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900">
+              Settings
+            </router-link>
           </div>
           <button
             @click="signOut"

@@ -30,8 +30,15 @@ const routes = [
     name: 'Tasks',
     component: () => import('./views/Tasks.vue'),
     meta: { requiresAuth: true }
-  }
-]
+  },
+  
+    {
+    path: '/settings',
+    name: 'Settings',
+    component: () => import('./views/settings.vue'),
+    meta: { requiresAuth: true }
+    }
+    ]
 
 const router = createRouter({
   history: createWebHistory(),

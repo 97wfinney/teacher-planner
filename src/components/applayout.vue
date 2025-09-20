@@ -26,6 +26,10 @@
           <span class="nav-icon">✅</span>
           <span class="nav-text">Tasks</span>
         </router-link>
+        <router-link to="/settings" class="nav-item" active-class="active">
+        <span class="nav-icon">⚙️</span>
+        <span class="nav-text">Settings</span>
+        </router-link>
       </nav>
 
       <div class="sidebar-footer">
